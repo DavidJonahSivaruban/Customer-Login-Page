@@ -1,0 +1,65 @@
+:root {
+  --main-font: 'Poppins';
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--main-font);
+  background: rgb(6, 1, 46);
+  color: white;
+}
+
+#label {
+  font-size: 1rem;
+}
+
+#main-title {
+  font-size: 1rem;
+  color: white;
+  margin-top: 10px;
+  font-family: var(--main-font);
+}
+
+#main-pic {
+  max-width: 100%;
+}
+
+input {
+  padding: 10px 35px 10px 35px;
+  margin: 10px 0px 10px 0px;
+  border: solid 2px black;
+  border-radius: 7px;
+}
+
+#login-button {
+  padding: 15px 100px 15px 100px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+#login-button:hover {
+  background-color: rgb(62, 61, 61);
+}
+
+#login-button:active {
+  opacity: 80%;
+}
+
+#click-toggle {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#click-toggle:hover {
+  text-decoration: underline;
+  color: beige;
+}
+
+#click-toggle:active {
+  opacity: 80%;
+}

@@ -1,0 +1,59 @@
+<!-- refer to this slides for instruction, copy and paste the link in search bar: https://docs.google.com/presentation/d/1csOCs8rAhjJoPTpczJefXrDGF70wwcHaR0-iww1GSDQ/edit?usp=sharing -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer src="script.js"></script>
+    <title>Login Project</title>
+  </head>
+
+  <body>
+    <h1 id="main-title">Design Meets Experience...</h1>
+    <img
+      id="main-pic"
+      src="main-logo-1.jpg"
+      alt="authentication-logo"
+      height="250px"
+    />
+    <div id="login-container">
+      <div id="username-container">
+        <label> Username </label>
+        <br />
+        <input type="text" placeholder="Type Here" id="username" />
+      </div>
+
+      <div id="password-container">
+        <label> Password </label>
+        <br />
+        <input type="password" placeholder="Type Here" id="password" />
+      </div>
+
+      <div id="confirm-password-container" style="display: none">
+        <label for="confirm-password"> Confirm Password</label>
+        <input id="confirm-password" type="password" />
+      </div>
+
+      <div id="login-button-container">
+        <button id="login-button" onclick="login()">Login</button>
+      </div>
+    </div>
+
+    <div id="sign-up-container">
+      <p id="sign-up-para">
+        Don't have an account?
+        <span id="click-toggle" onclick="toggleAuth()"> Sign Up </span>
+      </p>
+    </div>
+  </body>
+</html>
